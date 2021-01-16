@@ -1,0 +1,168 @@
+/*----Global----*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/*----navbar----*/
+.navbar_container {
+    width: 100%;
+    color: var(--bg-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navbar_wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 2rem;
+}
+.logo a {
+    color: #070707;
+}
+.logo i {
+    color: #34D1BF;
+}
+.createData {
+    background-color: transparent;
+    color: #070707;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+    transition: all 0.2s ease-in-out;
+}
+.createData:hover {
+    color: #2D2E2E;
+    transform: scale(0.9);
+}
+
+/*----Total----*/
+.total {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+/*----Table----*/
+.bigLebowski {
+    width: 100%;
+    margin-top: 5rem;
+}
+.table {
+    background-color: #0F0F0F;
+    color: #FBFBFB;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 0 1.5rem;
+    padding: 2rem 4rem;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.2) 0px 48px 100px 0px;
+}
+table thead {
+    font-size: 1.5rem;
+}
+tbody tr td {
+    font-size: 1.3rem;
+}
+tbody tr:nth-child(even) {
+    background-color: #E8E9EB;
+    color: #0F0F0F;
+}
+th {
+    border-bottom: 1px solid #FBFBFB;
+    font-weight: bold;
+}
+td {
+    height: 4rem;
+}
+.btnEdit i {
+    color: #ADE25D;
+    margin-right: 1rem;
+}
+.btnDelete i {
+    color: #DB504A;
+}
+
+/*----Popup----*/
+.popUp {
+    background-color: #ECEBEB;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.show {
+    display: flex;
+}
+.popCard {
+    background-color: #0F0F0F;
+    color: #f5f5f5;
+    box-shadow: rgba(17, 12, 46, 0.2) 0px 48px 100px 0px;
+    border-radius: 5px;
+    padding: 4rem 3rem;
+    position: relative;
+}
+.popTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.form-group input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #f5f5f5;
+    font-size: 2rem;
+    border-bottom: 1px solid #ffffff;
+    margin-top: 1rem;
+}
+.btn {
+    width: 100%;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    font-size: 1.3rem;
+}
+.btnUpdate {
+    background-color: #ADE25D;
+}
+.closePop {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1rem;
+    background-color: #f5f5f5;
+    padding: 0.1rem 0.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
